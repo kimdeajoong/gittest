@@ -23,3 +23,24 @@ C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git config --global --lis
 user.email='raraparu1@gmail.com'
 user.name='kimdeajoong'
 core.autocrlf=true
+
+//버전 관리 하겠다(초기화)
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git init 
+
+
+// 현재버전 관리상태 확인
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git status
+
+
+// 버전을 만들기 위한 준비 상태로 만들기
+// 현재 모든 파일 / 폴더를 스테이지에 올린다
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git add .
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git add aaa.txt <--aaa.txt파일만 버전관리를 할수 있도록 하겠다
+
+
+// 버전을 생성
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git commit -m "version 1" <-- 버전과 관련된 메시지(설명)
+
+
+//버전 확인
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git log
