@@ -59,3 +59,6 @@ git init하면 기본적으로 master라는 이름으로 branch가 만들어진�
 따라서 새로운 기능을 만드다면 새로운 branch를 만들어서 테스트를 해햣 보고
 안정화가 되면 master branch와 합쳐서 배포를 할수 있다
 master branch는 최대한 보수적으로 관리를 한다
+
+
+// branch 병합(merge)
