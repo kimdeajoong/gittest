@@ -1,0 +1,25 @@
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git config -- global user.name 'kimdeajoong' 
+fatal: not in a git directory
+
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git config -- global user.email 'raraparu1@gamil.com'
+fatal: not in a git directory
+
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git config -- global user.email 'raraparu1@gmail.com'
+fatal: not in a git directory
+
+
+
+// 사용자 등록
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git config --global user.email 'raraparu1@gmail.com'
+
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git config --global user.name 'kimdeajoong'    
+
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git config --global core.autocrlf true         
+
+
+// 등록된 사용자 확인
+C:\Users\401-03\Documents\kimdeajung20210908\git-test1>git config --global --list
+user.email='raraparu1@gmail.com'
+user.name='kimdeajoong'
+core.autocrlf=true
